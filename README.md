@@ -37,28 +37,7 @@ npm run preview
 - **Tailwind CSS** - Utility-first CSS framework
 - **Vite** - Fast build tool and dev server
 
-## Project Structure
-
-```
-assessment/
-├── src/
-│   ├── App.tsx          # Main app component
-│   ├── main.tsx         # Entry point
-│   ├── index.css        # Tailwind directives
-│   └── vite-env.d.ts    # TypeScript definitions
-├── public/              # Static assets
-├── index.html           # HTML template
-├── package.json         # Dependencies
-├── tsconfig.json        # TypeScript config
-├── tailwind.config.js   # Tailwind config
-└── vite.config.ts       # Vite config
-```
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-Happy coding! 🚀
+1- The Approch take in Intersection Observer
+2- I used it cause it is better for the performance it's more flexable and have automatic optimization also the browser calculates the threshold accuracy which is better fo the task.
+3- Chalenges: I had issue with the data it was fetched once the page reload so, I had to disconnect the observer while fetching to prevent multiple requests.
+3- https://dog-insight.netlify.app/

@@ -44,7 +44,7 @@ export default function ListCard({ breed }: { breed: Dog }) {
               <span className="text-gray-500">Female Weight</span>
               <span className="font-medium text-gray-800">
                 {attributes.female_weight.min}–{attributes.female_weight.max}{" "}
-                {attributes.female_weight.min > 50 ? "lbs" : "kg"}
+                {attributes.female_weight.min} "kg"
               </span>
             </div>
           )}
