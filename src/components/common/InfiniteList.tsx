@@ -22,7 +22,7 @@ export default function InfiniteList({
   isFetchingMore = false,
   hasMore = true,
   error = null,
-  configs = { threshold: 0.8, rootMargin: "0px 0px 200px 0p" },
+  configs = { threshold: 0.8, rootMargin: "0px 0px 200px 0px" },
   className = "",
 }: InfiniteListProps) {
   const observerTarget = useInfiniteScroll(onLoadMore, {
